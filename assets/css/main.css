@@ -1131,10 +1131,6 @@ footer .-two a {
     width: 303px;
     margin: 10px 0 0 0;
   }
-  .shape{
-    max-width: 270px !important;
-    max-height: 270px !important;
-  }
   .footer:first-child{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1144,5 +1140,19 @@ footer .-two a {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .cross{
+    right: 24% !important;
+  }
+  .shape{
+    width: 160px;
+    height: 160px;
+    background-size: contain;
+  }
+  .sm-hide{
+    display: none;
   }
 }
