@@ -1141,6 +1141,9 @@ footer .-two a {
             flex-direction: column;
     margin-bottom: 20px;
   }
+  #page404{
+    margin: 40px;
+  }
 }
 
 @media screen and (max-width: 400px){
