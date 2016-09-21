@@ -1131,4 +1131,9 @@ footer .-two a {
     width: 270px;
     margin: 10px 0 0 0;
   }
+  .circle, .circle-2, .square, .cross,
+  .triangle, .triangle-2 {
+    width: 200px!important;
+    height: 200px!important;
+  }
 }
