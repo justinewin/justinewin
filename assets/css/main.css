@@ -1149,6 +1149,7 @@ footer .-two a {
 @media screen and (max-width: 400px){
   .cross{
     right: 24% !important;
+    top: 74% !important;
   }
   .shape{
     width: 160px;
