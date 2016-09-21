@@ -801,7 +801,7 @@ nav a.active {
 
 #third .second-col {
   width: 30%;
-  text-align: end;
+  text-align: right;
 }
 
 .custom-input {
@@ -816,12 +816,12 @@ nav a.active {
 
 .custom-input.one {
   margin: 0;
-  width: 230px;
+  width: 190px;
 }
 
 .custom-input.two {
   margin: 0 0 0 -6px;
-  width: 190px;
+  width: 150px;
 }
 
 .content {
@@ -852,6 +852,11 @@ nav a.active {
   background: rgba(255, 255, 255, 0.7);
   -webkit-transition: .3s ease-in-out;
           transition: .3s ease-in-out;
+}
+
+.milestone-item.lock {
+  cursor: disabled;
+  background: none;
 }
 
 #stories, #page404 {
@@ -1095,7 +1100,7 @@ footer .-two a {
   }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 650px){
   .content, #first{
     padding: 30px;
   }
